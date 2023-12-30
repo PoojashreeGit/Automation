@@ -1,0 +1,14 @@
+
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="smoke test"/>
+			<include name="regression test"/>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.TestNG.CustomerModule1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
